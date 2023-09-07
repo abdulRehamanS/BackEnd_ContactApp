@@ -5,6 +5,9 @@ server:
 
 
 spring:
+  mvc:
+    path-match:
+      matching-strategy: ant_path_matcher
   datasource:
     url: jdbc:mysql://localhost/spring
     username: root
@@ -15,3 +18,14 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+
+
+
+
+
+
+
+
+
+
